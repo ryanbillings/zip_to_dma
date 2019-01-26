@@ -1,0 +1,22 @@
+{
+  "name": "zip_to_dma",
+  "version": "1.0.0",
+  "description": "Lookup DMA code by zipcode",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "test": "jest"
+  },
+  "author": "Ryan Billings",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-transform-modules-commonjs": "^7.2.0",
+    "@babel/preset-env": "^7.3.1",
+    "babel-jest": "^24.0.0",
+    "babel-loader": "^8.0.5",
+    "jest": "^24.0.0",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1"
+  }
+}
