@@ -9,5 +9,9 @@ describe('validations', () => {
 })
 
 test('maps zip codes to DMA codes', () => {
-  expect(zipToDma('22206')).toBe(42)
+  expect(zipToDma('02717')).toBe(521)
+  expect(zipToDma('15213')).toBe(508)
+  expect(zipToDma('22206')).toBe(511)
+  expect(zipToDma('01749')).toBe(543)
+  expect(zipToDma('50210')).toBe(679)
 })
