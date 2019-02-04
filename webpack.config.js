@@ -4,7 +4,12 @@ module.exports = {
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'zip_to_dma.js'
+    filename: 'zip_to_dma.js',
+    library: 'zip_to_dma',
+    libraryExport: 'default',
+    libraryTarget: 'umd',
+    umdNamedDefine: true,
+    globalObject: `(typeof self !== 'undefined' ? self : this)`
   },
   module: {
     rules: [
