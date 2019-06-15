@@ -1,7 +1,8 @@
 {
   "name": "zip_to_dma",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lookup DMA code by zipcode",
+  "keywords": ["zipcode", "dma", "javascript", "postalcode"],
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode=production",
