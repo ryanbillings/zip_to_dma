@@ -30,3 +30,14 @@ yarn lint
 ```
 yarn build
 ```
+
+### Installing
+
+```
+npm install zip_to_dma
+```
+
+### Other links
+
+[Github](https://github.com/ryanbillings/zip_to_dma)
+[npm](https://www.npmjs.com/package/zip_to_dma)
